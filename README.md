@@ -36,7 +36,9 @@
    cd PHP_TodoApp
 
 2. สร้างฐานข้อมูลในMySQL(PHP MyAdmin)
+
     SQL command
+
    1.CREATE DATABASE todo_app CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
    2.CREATE TABLE users (
             id INT AUTO_INCREMENT PRIMARY KEY,
@@ -55,7 +57,8 @@
             );
 
 3.ตั้งค่าไฟล์ db.php ให้เชื่อมต่อฐานข้อมูล local
-           php
+
+   ##php
             $host = 'localhost';
             $dbname = 'todo_app';
             $username = 'root';
