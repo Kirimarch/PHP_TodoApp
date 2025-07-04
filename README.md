@@ -53,12 +53,15 @@
             created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
             FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
             );
+
 3.ตั้งค่าไฟล์ db.php ให้เชื่อมต่อฐานข้อมูล local
            php
             $host = 'localhost';
             $dbname = 'todo_app';
             $username = 'root';
             $password = '';
+
 4.เปิด Apache & MySQL (ใน XAMPP)
+
 5.เข้าผ่าน browser: http://localhost/PHP_TodoApp
 
